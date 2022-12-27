@@ -1,0 +1,91 @@
+#page-pricing {
+    width: 100vw;
+    height: auto;
+}
+
+.page-pricing {
+    padding-top: 100px;
+
+    .page-pricing-footer {
+        margin-top: 43px;
+        text-align: center;
+    }
+}
+
+.page-pricing-header {
+    text-align: center;
+}
+
+.subscription-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    &__card {
+        width: 368.6px;
+        height: 615px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-1 {
+            background-image: url("../images/subscribe_1.png");
+
+        }
+
+        &-2 {
+            background-image: url("../images/subscribe_2.png");
+        }
+
+        &-3 {
+            background-image: url("../images/subscribe_3.png");
+        }
+
+        .price {
+            margin-top: 200px;
+            display: flex;
+            justify-content: center;
+            column-gap: 16px;
+
+            .digit {
+
+                font-size: 64px;
+                line-height: 64px;
+            }
+
+            .currency {
+                text-transform: uppercase;
+            }
+        }
+
+        .pricing-value {
+            text-transform: uppercase;
+            margin-top: 24px;
+
+        }
+
+        .btn {
+            box-sizing: border-box;
+            width: 318.66px;
+            height: 66px;
+            border: 1px solid #FFFFFF;
+            border-radius: 5px;
+            margin: 40px auto;
+            color: $white;
+            
+           
+        }
+
+        .card-text-footer {
+            margin-top: 64px;
+            text-align: center;
+            margin: 0 24px;
+        }
+    }
+}
+
+//Мобильная версия ниже 
+
+@media (max-width: 1240px) {}

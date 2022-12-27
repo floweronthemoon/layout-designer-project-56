@@ -1,0 +1,121 @@
+#page-description {
+    background-image: url('../images/banner.png');
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 25px;
+    align-items: center;
+
+    position: relative;
+    top: 25px;
+
+
+    .icon-logo {
+        max-width: 100%;
+        height: 24px;
+        display: block;
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        column-gap: 16px;
+
+        &-button {
+            border: 0;
+            padding: 0;
+            background-color: transparent;
+            cursor: pointer;
+        }
+    }
+
+    &__menu {
+        display: flex;
+        column-gap: 24px;
+        margin: 0 451px 0 90px;
+    }
+
+    &__form {
+        &-input {
+            width: 248px;
+            height: 25px;
+            background-color: $dark;
+            border: 0;
+            border-radius: 50px;
+            box-sizing: border-box;
+            padding: 5px 0 5px 10px;
+            color: $white;
+            outline: none;
+
+            &::placeholder {
+                font: 400 13.3px/15px "Roboto", sans-serif;
+                color: #757575;
+                opacity: 1;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.hero {
+    margin: 200px auto;
+    text-align: center;
+
+    span {
+        margin-top: 31px;
+        display: block;
+    }
+
+    &__form {
+        margin: 0 auto;
+        max-width: 570px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        &-input {
+            width: 273px;
+            height: 50px;
+            margin-top: 17px;
+            border: 2px solid $dark-gray;
+            border-radius: 3px;
+            background-color: transparent;
+            box-sizing: border-box;
+            padding-left: 20.24px;
+            color: $white;
+            outline: none;
+
+            &::placeholder {
+                font: 700 14px/16px "Roboto", sans-serif;
+                color: $white;
+                opacity: 1;
+            }
+        }
+
+        &-button {
+            background-color: $green;
+            
+            width: 570px;
+            height: 57px;
+            border: 0 solid;
+            color: $white;
+            padding: 0;
+            margin-top: 24px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    }
+}
+
+
+
+//Мобильная версия ниже 
+
+@media (max-width: 1240px) {}

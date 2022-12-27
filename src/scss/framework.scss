@@ -1,0 +1,70 @@
+.text-size-7 {
+    font: 400 64px/96px "Roboto Regular", sans-serif;
+}
+
+.text-size-6 {
+    font: 400 56px/84px "Roboto Regular", sans-serif;
+}
+
+.text-size-5 {
+    font: 400 48px/72px "Roboto Regular", sans-serif;
+}
+
+.text-size-4 {
+    font: 400 40px/60px "Roboto Regular", sans-serif;
+
+}
+
+.text-size-3 {
+    font: 400 32px/48px "Roboto Regular", sans-serif;
+
+}
+
+.text-size-2 {
+    font: 400 24px/36px "Roboto Regular", sans-serif;
+
+}
+
+.text-size-1 {
+    font: 400 16px/24px "Roboto Regular", sans-serif;
+
+}
+
+.text-small {
+    font: 400 12.8px/19.2px "Roboto Regular", sans-serif;
+
+}
+
+.pplr-track-sml-bld {
+    font: 700 12.8px/19.2px "Roboto Regular", sans-serif;
+}
+
+.regular-text {
+    font: 400 18px/1.5 "Roboto", sans-serif;
+    color: #cacaca;
+}
+
+.header-text{
+    font: 400 11px/16.5px "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+.text-white {
+    color: $white;
+}
+
+.text-dark-gray {
+    color: $dark-gray;
+}
+
+.sr-only {
+    display: none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.border-r-5 {
+    border-radius: 5px;
+}

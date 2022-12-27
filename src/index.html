@@ -1,12 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My second project @floweronthemoon</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    
+    <section id="page-description">
+        <div class="desktop-width">
+            <header class="header">
+                <div class="header__logo">
+                    <button class="header__logo-button">
+                        <img src="./images/logo.svg" class="icon-logo" alt="лого">
+                    </button>
+                    <a href="#" class="header-text text-white">music box</a>
+                </div>
+                <nav class="header__menu">
+                    <a href="#" class="header-text text-white">главная</a>
+                    <a href="#" class="header-text text-dark-gray">каталог</a>
+                    <a href="#" class="header-text text-dark-gray">исполнители</a>
+                    <a href="#" class="header-text text-dark-gray">контакты</a>
+                </nav>
+                <form action="#" class="header__form">
+                    <label for="search" class="sr-only">Поиск</label>
+                    <input id="search" type="search" placeholder="Поиск..." class="header__form-input">
+                </form>
+            </header>
+            <div class="hero">
+                <h1>онлайн музыка где угодно</h1>
+                <h2>без ограничений</h2>
+                <span class="text-size-1">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте
+                    мир музыки</span>
+                <form class="hero__form">
+                    <label for="name" class="sr-only">Имя</label>
+                    <input id="name" type="text" placeholder="Имя" class="hero__form-input">
+
+                    <label for="email" class="sr-only">Email</label>
+                    <input id="email" type="email" placeholder="Email" class="hero__form-input">
+
+                    <button type="submit" class="btn hero__form-button text-small">Получить доступ</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="page-pricing">
+        <div class="page-pricing desktop-width">
+            <h2 class="page-pricing-header">формы подписки</h2>
+            <div class="subscription-block">
+                <div class="subscription-block__card subscription-block__card-1">
+                    <h3 class="pricing-value text-size-2">бесплатная</h3>
+                    <div class="price">
+                        <span class="digit">0</span>
+                        <span class="currency text-size-3">руб.</span>
+                    </div>
+                    <a type="submit" href="#" class="btn text-size-1">Оформить</a>
+                    <p class="card-text-footer">Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции
+                        музыки. Присутствует реклама</p>
+                </div>
+
+
+                <div class="subscription-block__card subscription-block__card-2">
+                    <h3 class="pricing-value text-size-2">стандартная</h3>
+                    <div class="price">
+                        <span class="digit">250</span>
+                        <span class="currency text-size-3">руб.</span>
+                    </div>
+                    <a type="submit" href="#" class="btn text-size-1">Оформить</a>
+                    <p class="card-text-footer">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции
+                        музыки в среднем качестве</p>
+                </div>
+
+
+
+                <div class="subscription-block__card subscription-block__card-3">
+                    <h3 class="pricing-value text-size-2">стандартная</h3>
+                    <div class="price">
+                        <span class="digit">500</span>
+                        <span class="currency text-size-3">руб.</span>
+                    </div>
+                    <a type="submit" href="#" class="btn text-size-1">Оформить</a>
+                    <p class="card-text-footer">Оплата в месяц. Премиум тариф предоставляет доступ ко всей коллекции
+                        музыки в высоком качестве</p>
+                </div>
+            </div>
+            <p class="page-pricing-footer text-size-1">На всех тарифах возможно прослушивание музыки с мобильных
+                устройств. На премиум тарифе вы можете скачать
+                все композиции на ваше устройство и слушать музыку без подключения к интернету</p>
+        </div>
+    </section>
+
+    <section id="page-news">
+        <div class="page-news desktop-width">
+            <h2 class="page-news__h2">последние новости</h2>
+
+            <div class="news-item news-item-1">
+                <img class="news-item__img-1" src="./images/Music to Be Murdered By.png" alt="Eminem">
+                <div class="news-body">
+                    <h3 class="news-body__h3">Music to Be Murdered By</h3>
+                    <p class="news-body__p text-size-1">Новый альбом Eminem «Music to Be Murdered By» уже доступен в
+                        нашем сервисе. На альбоме вас ждёт 20 новых треков.</p>
+                </div>
+                <div class="news-footer">
+                    <div class="news-author">
+                        <img src="./images/avatar.png" alt="Аватар пользователя">
+                        <span class="news-author__musicbox-text text-small uppercase">music box</span>
+                        <span class="news-author__date text-small uppercase">17/01/2020</span>
+                    </div>
+                    <a class="btn text small uppercase border-r-5" href="#">К альбому</a>
+                </div>
+            </div>
+
+            <div class="news-item news-item-2">
+                <img class="news-item__img-2" src="./images/Ordinary Man.png" alt="Eminem">
+                <div class="news-body">
+                    <h3 class="news-body__h3">Ordinary Man</h3>
+                    <p class="news-body__p text-size-1">Легенда рока Оззи Озборн спустя 10 лет выпустил новый альбом
+                        Ordinary Man. Слушайте в числе первых на Music Box</p>
+                </div>
+                <div class="news-footer">
+                    <div class="news-author">
+                        <img src="./images/avatar.png" alt="Аватар пользователя">
+                        <span class="news-author__musicbox-text text-small uppercase">music box</span>
+                        <span class="news-author__date text-small uppercase">24/02/2020</span>
+                    </div>
+                    <a class="btn text small uppercase border-r-5" href="#">К альбому</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="page-app">
+        <div class="page-app desktop-width">
+            <h2 class="page-app__h2">Мобильное приложение</h2>
+            <img class="page-app__img" src="./images/iphone.png" alt="смартфоны">
+            <div class="page-app__text text-size-1">
+                <p>Воспользуйтесь нашим мобильным приложением. Оно позволит слушать
+                    музыку с любого устройства на базе операционных систем Androind и iOS</p>
+                <p>С тарифом «Премиум» приложение позволяет скачивать все композиции из нашей коллекции. Вы можете
+                    слушать
+                    музыку даже без интернета.</p>
+            </div>
+            <button class="page-app__button">Скачать</button>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer desktop-width">
+            <div class="footer__menu">
+                <div class="footer__menu footer__menu-1">
+                </div>
+
+                <div class="footer__menu footer__menu-2">
+                </div>
+
+                <div class="footer__menu footer__menu-3">
+                </div>
+
+                <div class="footer__menu footer__menu-4">
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
 </body>
+
 </html>

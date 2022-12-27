@@ -1,0 +1,84 @@
+@font-face {
+    font-weight: 400;
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Bold.ttf")
+}
+
+body {
+    margin: 0;
+    background-color: #08020d;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2 {
+    font-size: 38px;
+    line-height: 57px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 45px;
+    margin: 0
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+.desktop-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+//Мобильная версия ниже
+
+@media (max-width: 1240px) {
+
+    h1 {
+        font-size: 30px;
+        line-height: 45px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+}
