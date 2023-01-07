@@ -39,6 +39,13 @@ h3 {
     margin: 0
 }
 
+h4 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    margin: 0;
+}
+
 a {
     color: inherit;
     cursor: pointer;
@@ -65,6 +72,12 @@ p {
 
 @media (max-width: 1240px) {
 
+    .mobile-width {
+        max-width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
     h1 {
         font-size: 30px;
         line-height: 45px;
@@ -78,6 +91,21 @@ p {
         line-height: 27px;
         font-weight: bold;
         text-transform: uppercase;
+        margin: 0;
+    }
+
+    h3 {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin: 0; 
+    }
+
+    h4 {
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: bold;
         margin: 0;
     }
 

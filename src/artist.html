@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,290 @@
     <title>My second project @floweronthemoon</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    
+    <section id="page-description">
+        <div class="desktop-width mobile-width">
+            <header class="header">
+                <div class="header__logo">
+                    <button class="header__logo-button">
+                        <img src="./images/logo.svg" class="icon-logo" alt="лого">
+                    </button>
+                    <a href="#" class="header-text text-white">music box</a>
+                </div>
+                <nav class="header__menu">
+                    <a href="#" class="header-text text-dark-gray">главная</a>
+                    <a href="#" class="header-text text-dark-gray">каталог</a>
+                    <a href="#" class="header-text text-white">исполнители</a>
+                    <a href="#" class="header-text text-dark-gray">контакты</a>
+                </nav>
+                <form action="#" class="header__form">
+                    <label for="search" class="sr-only">Поиск</label>
+                    <input id="search" type="search" placeholder="Поиск..." class="header__form-input">
+                </form>
+            </header>
+
+            <div class="artist-hero">
+                <h1 class="artist-hero__h1">morten harket</h1>
+                <span class="artist-hero__text text-size-1">24 875 поклонников</span>
+                <div class="artist-hero__button-block text-small">
+                    <button class="artist-hero__button border-r-5 artist-hero__button-1">
+                        <img class="artist-hero__button__img" src="./images/play-button.svg"
+                            alt="иконка воспроизведения">
+                        <span class="artist-hero__button__text">микс</span>
+                    </button>
+                    <button class="artist-hero__button border-r-5 artist-hero__button-2">
+                        <img class="artist-hero__button__img" src="./images/heart.svg" alt="иконка сердечко">
+                        <span class="artist-hero__button__text">в избранное</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="page-popular-track">
+        <div class="page-popular-track desktop-width mobile-width">
+            <h2 class="page-popular-track__h2">популярные треки</h2>
+            <div class="popular-track-block">
+
+                <div class="popular-track-block-1">
+
+                    <div class="popular-track popular-track-1">
+                        <img class="popular-track__img" src="./images/Wild Seed.png" alt="Трек Spanish Step">
+                        <div class="popular-track__info">
+                            <h3 class="popular-track__name pplr-track-sml-bld uppercase">spanish step</h3>
+                            <span class="popular-track__artist text-small">Morten Harket</span>
+                        </div>
+                        <span class="popular-track__duration text-small">4:07</span>
+                    </div>
+
+                    <div class="popular-track popular-track-2">
+                        <img class="popular-track__img" src="./images/Brother.png" alt="Трек Brother">
+                        <div class="popular-track__info">
+                            <h3 class="popular-track__name pplr-track-sml-bld uppercase">brother</h3>
+                            <span class="popular-track__artist text-small">Morten Harket</span>
+                        </div>
+                        <span class="popular-track__duration text-small">5:05</span>
+                    </div>
+
+                    <div class="popular-track popular-track-3">
+                        <img class="popular-track__img" src="./images/Letter from Egypt.png" alt="Трек Darkspace">
+                        <div class="popular-track__info">
+                            <h3 class="popular-track__name pplr-track-sml-bld uppercase">darkspace</h3>
+                            <span class="popular-track__artist text-small">Morten Harket</span>
+                        </div>
+                        <span class="popular-track__duration text-small">3:45</span>
+                    </div>
+                </div>
+
+
+                <div class="popular-track-block-2">
+
+                    <div class="popular-track popular-track-4">
+                        <img class="popular-track__img" src="./images/Letter from Egypt.png"
+                            alt="Трек With You - With Me">
+                        <div class="popular-track__info">
+                            <h3 class="popular-track__name pplr-track-sml-bld uppercase">with you - with me</h3>
+                            <span class="popular-track__artist text-small">Morten Harket</span>
+                        </div>
+                        <span class="popular-track__duration text-small">3:48</span>
+                    </div>
+
+                    <div class="popular-track popular-track-5">
+                        <img class="popular-track__img" src="./images/Wild Seed.png" alt="Трек Brodsky Tune">
+                        <div class="popular-track__info">
+                            <h3 class="popular-track__name pplr-track-sml-bld uppercase">brodsky tune</h3>
+                            <span class="popular-track__artist text-small">Morten Harket</span>
+                        </div>
+                        <span class="popular-track__duration text-small">4:24</span>
+                    </div>
+
+                    <div class="popular-track popular-track-6">
+                        <img class="popular-track__img" src="./images/Out of My Hands.png" alt="Трек Burn Money Burn">
+                        <div class="popular-track__info">
+                            <h3 class="popular-track__name pplr-track-sml-bld uppercase">burn money burn</h3>
+                            <span class="popular-track__artist text-small">Morten Harket</span>
+                        </div>
+                        <span class="popular-track__duration text-small">3:52</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="page-discography">
+        <div class="page-discography desktop-width mobile-width">
+            <h2 class="page-discography__h2">дискография</h2>
+
+            <div class="album-block">
+                <div class="album-item album-item-1">
+                    <img class="album-item__img" src="./images/Brother.png" alt="Обложка альбома Brother">
+                    <h4 class="album-item__name">Brother</h4>
+                    <span class="album-item__release-year text-size-1">2014</span>
+                </div>
+
+                <div class="album-item album-item-2">
+                    <img class="album-item__img" src="./images/Out of My Hands.png"
+                        alt="Обложка альбома Out Of My Hands">
+                    <h4 class="album-item__name">Out Of My Hands</h4>
+                    <span class="album-item__release-year text-size-1">2012</span>
+                </div>
+
+                <div class="album-item album-item-3">
+                    <img class="album-item__img" src="./images/Letter from Egypt.png"
+                        alt="Обложка альбома Letter From Egypt">
+                    <h4 class="album-item__name">Letter From Egypt</h4>
+                    <span class="album-item__release-year text-size-1">2008</span>
+                </div>
+
+                <div class="album-item album-item-4">
+                    <img class="album-item__img" src="./images/Vogts Villa.png" alt="Обложка альбома Vogts Vills">
+                    <h4 class="album-item__name">Vogts Vills</h4>
+                    <span class="album-item__release-year text-size-1">1996</span>
+                </div>
+
+                <div class="album-item album-item-5">
+                    <img class="album-item__img" src="./images/Wild Seed.png" alt="Обложка альбома Wild Seed">
+                    <h4 class="album-item__name">Wild Seed</h4>
+                    <span class="album-item__release-year text-size-1">1995</span>
+                </div>
+
+                <div class="album-item album-item-6">
+                    <img class="album-item__img" src="./images/Poetenes Evangelium.png"
+                        alt="Обложка альбома Poetenes Evangelium">
+                    <h4 class="album-item__name">Poetenes Evangelium</h4>
+                    <span class="album-item__release-year text-size-1">1993</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="page-similar">
+        <div class="page-similar desktop-width mobile-width">
+            <h2 class="page-similar__h2">похожие исполнители</h2>
+
+            <div class="artist-block">
+
+                <div class="artist-item artist-item-1">
+                    <img class="artist-item__img" src="./images/A-ha.png" alt="Аватар артиста A-Ha">
+                    <div class="artist-info">
+                        <h4 class="artist-item__name">A-ha</h4>
+                        <span class="artist-item__fan-number text-size-1">417 086 поклонников</span>
+                    </div>
+                </div>
+
+                <div class="artist-item artist-item-2">
+                    <img class="artist-item__img" src="./images/Tears for Fears.png"
+                        alt="Аватар артиста Tears For Fears">
+                    <div class="artist-info">
+                        <h4 class="artist-item__name">Tears For Fears</h4>
+                        <span class="artist-item__fan-number text-size-1">434 086 поклонников</span>
+                    </div>
+                </div>
+
+
+                <div class="artist-item artist-item-3">
+                    <img class="artist-item__img" src="./images/Duran Duran.png" alt="Аватар артиста Duran Duran">
+                    <div class="artist-info">
+                        <h4 class="artist-item__name">Duran Duran</h4>
+                        <span class="artist-item__fan-number text-size-1">631 071 поклонник</span>
+                    </div>
+                </div>
+
+                <div class="artist-item artist-item-4">
+                    <img class="artist-item__img" src="./images/Jack Savoretti.png" alt="Аватар артиста Jack Savoretti">
+                    <div class="artist-info">
+                        <h4 class="artist-item__name">Jack Savoretti</h4>
+                        <span class="artist-item__fan-number text-size-1">26 857 поклонников</span>
+                    </div>
+                </div>
+
+                <div class="artist-item artist-item-5">
+                    <img class="artist-item__img" src="./images/Keane.png" alt="Аватар артиста Keane">
+                    <div class="artist-info">
+                        <h4 class="artist-item__name">Keane</h4>
+                        <span class="artist-item__fan-number text-size-1">1 704 358 поклонников</span>
+                    </div>
+                </div>
+
+                <div class="artist-item artist-item-6">
+                    <img class="artist-item__img" src="./images/Frank Sinatra.png" alt="Аватар артиста Frank Sinatra">
+                    <div class="artist-info">
+                        <h4 class="artist-item__name">Frank Sinatra</h4>
+                        <span class="artist-item__fan-number text-size-1">1 653 882 поклонников</span>
+                    </div>
+                </div>
+
+                <div class="artist-item artist-item-7">
+                    <img class="artist-item__img" src="./images/Paul Young.png" alt="Аватар артиста Paul Young">
+                    <div class="artist-info">
+                        <h4 class="artist-item__name">Paul Young</h4>
+                        <span class="artist-item__fan-number text-size-1">50 329 поклонников</span>
+                    </div>
+                </div>
+
+                <div class="artist-item artist-item-8">
+                    <img class="artist-item__img" src="./images/Chris Rea.png" alt="Аватар артиста Chris Rea">
+                    <div class="artist-info">
+                        <h4 class="artist-item__name">Chris Rea</h4>
+                        <span class="artist-item__fan-number text-size-1">73 351 поклонников</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <div class="footer desktop-width">
+            <div class="footer__menu-block desktop-width mobile-width">
+                <div class="footer__menu footer__menu-1">
+                    <h2 class="footer__menu__h2">о нас</h2>
+                    <a class="text-size-1" href="#">История компании</a>
+                    <a class="text-size-1" href="#">Карьера</a>
+                    <a class="text-size-1" href="#">Особенности</a>
+                    <a class="text-size-1" href="#">Пресса</a>
+                </div>
+
+                <div class="footer__menu footer__menu-2">
+                    <h2 class="footer__menu__h2">поддержка</h2>
+                    <a class="text-size-1" href="#">База знаний</a>
+                    <a class="text-size-1" href="#">Тариф</a>
+                    <a class="text-size-1" href="#">Мобильное приложение</a>
+                    <a class="text-size-1" href="#">Условия использования</a>
+                </div>
+
+                <div class="footer__menu footer__menu-3">
+                    <h2 class="footer__menu__h2">контакты</h2>
+                    <a class="text-size-1" href="#">hello@music.box</a>
+                    <a class="text-size-1" href="#">Russia, Moscow. Music Box studio</a>
+                    <a class="text-size-1" href="#">+ 7 499 999 99 99</a>
+                </div>
+
+                <div class="footer__menu footer__menu-4">
+                    <h2 class="footer__menu__h2">подписывайтесь</h2>
+                    <div class="footer__menu-4__images">
+                        <img src="./images/Google+.png" alt="иконка Google+">
+                        <img src="./images/Twitter.png" alt="иконка Twitter">
+                    </div>
+                </div>
+            </div>
+            <hr class="footer__hr">
+            <div class="footer__second-menu desktop-width mobile-width">
+                <a class="text-size-1" href="#">Магазин</a>
+                <a class="text-size-1" href="#">Обслуживание</a>
+                <a class="text-size-1" href="#">Блог</a>
+                <a class="text-size-1" href="#">Поддержка</a>
+                <a class="text-size-1" href="#">Контакты</a>
+            </div>
+        </div>
+    </footer>
+
+
+
 </body>
+
 </html>

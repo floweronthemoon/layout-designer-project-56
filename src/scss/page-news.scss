@@ -5,6 +5,7 @@
 
 .page-news {
     padding-top: 100px;
+    overflow: auto;
 
     .page-news__h2 {
         text-align: center;
@@ -61,4 +62,12 @@
 
 //Мобильная версия ниже 
 
-@media (max-width: 1240px) {}
+@media (max-width: 1240px) {
+    .news-item__img {
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+
+
+
+}
