@@ -1,0 +1,56 @@
+.page-similar {
+    padding-top: 100px;
+    margin-bottom: 100px;
+
+    &__h2 {
+        margin-bottom: 50px;
+    }
+}
+
+.artist-block {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 25px;
+}
+
+.artist-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__img {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 18px;
+        border-radius: 50%;
+    }
+
+    &__name {
+        text-transform: capitalize;
+    }
+}
+
+.artist-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media (max-width: 1240px) {
+
+    .artist-item {
+        width: 137px;
+
+        &__img {
+            width: 137px;
+            height: 137px;
+        }
+
+        &__fan-number {
+            text-align: center;
+            color: $gray;
+        }
+    }
+}

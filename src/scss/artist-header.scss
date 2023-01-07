@@ -1,0 +1,153 @@
+#page-description {
+    background-image: url('../images/Morten\ Harket.png');
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 25px;
+    align-items: center;
+    position: relative;
+    top: 25px;
+
+    .icon-logo {
+        max-width: 100%;
+        height: 24px;
+        display: block;
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        column-gap: 16px;
+
+        &-button {
+            border: 0;
+            padding: 0;
+            background-color: transparent;
+            cursor: pointer;
+        }
+    }
+
+    &__menu {
+        display: flex;
+        column-gap: 24px;
+        margin: 0 451px 0 90px;
+    }
+
+    &__form {
+        &-input {
+            width: 100%;
+            height: 25px;
+            background-color: $dark;
+            border: 0;
+            border-radius: 50px;
+            box-sizing: border-box;
+            padding: 5px 0 5px 10px;
+            color: $white;
+            outline: none;
+
+            &::placeholder {
+                font: 400 13.3px/15px "Roboto", sans-serif;
+                color: #757575;
+                opacity: 1;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.artist-hero {
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+
+    &__h1 {
+        margin-bottom: 16px;
+    }
+
+    &__text {
+        margin-bottom: 48px;
+    }
+
+    &__button-block {
+        display: flex;
+        column-gap: 1.5rem;
+    }
+
+    &__button {
+        width: 200px;
+        padding: 20px 30px;
+        border-width: 0;
+        display: flex;
+        align-items: center;
+        column-gap: 16px;
+
+        &__img {
+            width: 20px;
+            -webkit-filter: invert(100%);
+
+        }
+
+        &__text {
+            color: $white;
+            text-transform: uppercase;
+        }
+    }
+
+    &__button-1 {
+        background-color: $purple;
+
+    }
+
+    &__button-2 {
+        background-color: $red;
+    }
+}
+
+
+@media (max-width: 1240px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 17px;
+
+        &__menu {
+            flex-direction: column;
+            margin: 0;
+
+            a:nth-of-type(1) {
+                color: $dark-gray;
+            }
+
+            a:nth-of-type(3) {
+                color: $white;
+            }
+        }
+
+        &-text {
+            width: fit-content;
+        }
+
+        &__form {
+            width: 100%;
+            box-sizing: border-box;
+        }
+    }
+
+    .hero__form-input {
+        width: 100%;
+    }
+
+    .artist-hero__button-block {
+        flex-direction: column;
+        row-gap: 1.5rem;
+    }
+}
+
+
+

@@ -1,0 +1,68 @@
+.page-popular-track {
+    padding-top: 100px;
+
+    &__h2 {
+        margin-bottom: 50px;
+    }
+}
+
+.popular-track-block {
+    display: flex;
+    column-gap: 50px;
+}
+
+
+.popular-track-block-1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    width: 100%;
+}
+
+.popular-track-block-2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    width: 100%;
+}
+
+.popular-track {
+    display: flex;
+    align-items: center;
+
+
+    &__img {
+        width: 55px;
+        height: 55px;
+        margin-right: 15px;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+    }
+
+    &__artist {
+        color: $gray;
+    }
+
+    &__duration {
+        color: $gray;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 1240px) {
+
+    .popular-track-block {
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+}

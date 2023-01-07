@@ -1,0 +1,37 @@
+.page-discography {
+    padding-top: 100px;
+
+    &__h2 {
+        margin-bottom: 50px;
+    }
+}
+
+.album-block {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 25px;
+}
+
+.album-item {
+    display: flex;
+    flex-direction: column;
+
+    &__img {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 18px;
+    }
+
+    &__name {
+        text-transform: capitalize;
+    }
+
+    &__release-year {
+        color: $gray;
+    }
+}
+
+@media (max-width: 1240px) {
+
+}
