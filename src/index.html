@@ -11,39 +11,41 @@
 
 <body>
     <section id="page-description">
-        <div class="desktop-width mobile-width">
-            <header class="header">
-                <div class="header__logo">
-                    <button class="header__logo-button">
-                        <img src="./images/logo.svg" class="icon-logo" alt="лого">
-                    </button>
-                    <a href="#" class="header-text text-white">music box</a>
+        <div class="page-description-index">
+            <div class="desktop-width mobile-width">
+                <header class="header">
+                    <div class="header__logo">
+                        <button class="header__logo-button">
+                            <img src="./images/logo.svg" class="icon-logo" alt="лого">
+                        </button>
+                        <a href="#" class="header-text text-white">music box</a>
+                    </div>
+                    <nav class="header__menu">
+                        <a href="#" class="header-text text-white">главная</a>
+                        <a href="#" class="header-text text-dark-gray">каталог</a>
+                        <a href="#" class="header-text text-dark-gray">исполнители</a>
+                        <a href="#" class="header-text text-dark-gray">контакты</a>
+                    </nav>
+                    <form action="#" class="header__form">
+                        <label for="search" class="sr-only">Поиск</label>
+                        <input id="search" type="search" placeholder="Поиск..." class="header__form-input">
+                    </form>
+                </header>
+                <div class="hero">
+                    <h1>онлайн музыка где угодно</h1>
+                    <h2>без ограничений</h2>
+                    <span class="text-size-1">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте
+                        мир музыки</span>
+                    <form class="hero__form">
+                        <label for="name" class="sr-only">Имя</label>
+                        <input id="name" type="text" placeholder="Имя" class="hero__form-input">
+
+                        <label for="email" class="sr-only">Email</label>
+                        <input id="email" type="email" placeholder="Email" class="hero__form-input">
+
+                        <button type="submit" class="btn hero__form-button text-small">Получить доступ</button>
+                    </form>
                 </div>
-                <nav class="header__menu">
-                    <a href="#" class="header-text text-white">главная</a>
-                    <a href="#" class="header-text text-dark-gray">каталог</a>
-                    <a href="#" class="header-text text-dark-gray">исполнители</a>
-                    <a href="#" class="header-text text-dark-gray">контакты</a>
-                </nav>
-                <form action="#" class="header__form">
-                    <label for="search" class="sr-only">Поиск</label>
-                    <input id="search" type="search" placeholder="Поиск..." class="header__form-input">
-                </form>
-            </header>
-            <div class="hero">
-                <h1>онлайн музыка где угодно</h1>
-                <h2>без ограничений</h2>
-                <span class="text-size-1">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте
-                    мир музыки</span>
-                <form class="hero__form">
-                    <label for="name" class="sr-only">Имя</label>
-                    <input id="name" type="text" placeholder="Имя" class="hero__form-input">
-
-                    <label for="email" class="sr-only">Email</label>
-                    <input id="email" type="email" placeholder="Email" class="hero__form-input">
-
-                    <button type="submit" class="btn hero__form-button text-small">Получить доступ</button>
-                </form>
             </div>
         </div>
     </section>
@@ -178,9 +180,9 @@
                 <div class="footer__menu footer__menu-4">
                     <h2 class="footer__menu__h2">подписывайтесь</h2>
                     <div class="footer__menu-4__images">
-                    <img src="./images/Google+.png" alt="иконка Google+">
-                    <img src="./images/Twitter.png" alt="иконка Twitter">
-                    </div>    
+                        <img src="./images/Google+.png" alt="иконка Google+">
+                        <img src="./images/Twitter.png" alt="иконка Twitter">
+                    </div>
                 </div>
             </div>
             <hr class="footer__hr">
@@ -194,4 +196,5 @@
         </div>
     </footer>
 </body>
+
 </html>

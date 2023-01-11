@@ -166,7 +166,7 @@ p {
     margin: 0;
   }
 }
-#page-description {
+.page-description-index {
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
@@ -510,12 +510,11 @@ p {
     row-gap: 16px;
   }
 }
-#page-description {
+.page-description-artist {
   background-image: url("../images/Morten Harket.png");
   background-position: center;
   background-size: cover;
-  max-width: 100%;
-  height: auto;
+  overflow: auto;
 }
 
 .header {
@@ -525,6 +524,7 @@ p {
   align-items: center;
   position: relative;
   top: 25px;
+  justify-content: space-between;
 }
 .header .icon-logo {
   max-width: 100%;

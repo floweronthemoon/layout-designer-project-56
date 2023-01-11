@@ -1,9 +1,8 @@
-#page-description {
+.page-description-artist {
     background-image: url('../images/Morten\ Harket.png');
     background-position: center;
     background-size: cover;
-    max-width: 100%;
-    height: auto;
+    overflow: auto
 }
 
 .header {
@@ -13,6 +12,7 @@
     align-items: center;
     position: relative;
     top: 25px;
+    justify-content: space-between;
 
     .icon-logo {
         max-width: 100%;
